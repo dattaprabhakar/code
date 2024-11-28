@@ -1,0 +1,74 @@
+{
+    "jwt_hours": 8,
+    "trips_url": "http://192.168.0.34:3065/",
+    "booking_url":"http://192.168.0.34:3054/",
+    "jca_url": "http://192.168.0.34:3064/",
+    "marketVehicle_CAM_url" : "http://192.168.0.34:3060",
+    "configuration_url": "http://192.168.0.34:3066/",
+    "sim_track_api_url": "https://jiotelematicsfms.jio.com",
+    "usermanagement_url": "http://192.168.0.34:3048",
+    "jhsDashboard_url": "http://192.168.0.34:3055/",
+    "sim_track_username": "jiohumsafar.admin",
+    "sim_track_password": "t4Ert1Dk93&D9q%iVxfSyv",
+    "sim_track_consentMessage": "Tracking your location please reply yes or no to 5168574 and revoke_sms_code for cancelling the consent before the expiry date : ",
+    "base_key": "/jhsthirdpartyapi",
+    "isfmsenable": false,
+    "isedgeenable": true,
+    "issecenable": false,
+    "certificates": {
+        "crt": "./../certificates/spicemoney.crt",
+        "key": "./../certificates/spicemoney.key"
+    },
+    "seco_api": "https://api-sit.jio.com:7443/cci/v1/verifyjionumber",
+    "seco_x_api_key": "l7xxed35506e0f9f4a88a740806ee5ec94c2",
+    "channel_id": "20",
+    "edge_api": "https://api.edgeandcloud.com",
+    "edge_client_key": "28801730ac88cd6851d10f7a402e77a75eaa7b9a",
+    "edge_client_secret": "8701b016c3f18cf354fc0ef9c03d38dc33667182",
+    "edge_proxy": {
+        "isenable": false,
+        "protocol_type": "http",
+        "host": "cloudproxy.jio.com",
+        "port": 8080,
+        "add_proxy_key_false": false
+    },
+    "fms_proxy": {
+        "isenable": false,
+        "protocol_type": "http",
+        "host": "cloudproxy.jio.com",
+        "port": 8080,
+        "add_proxy_key_false": false
+    },
+    "google_proxy": {
+        "isenable": false,
+        "protocol_type": "http",
+        "host": "cloudproxy.jio.com",
+        "port": 8080,
+        "add_proxy_key_false": false
+    },
+    "cryptoJsSecretKey": "123456$#@$^@1ERF",
+    "jioapi": "https://api.sit.jvts.net",
+    "jmtiurl":"http://10.159.23.219:7002",
+    "jmtienterpriseurl":"http://10.159.23.219:7002",
+    "jmtiadminkey": "gvwfdhgw2432bvsdhgqwv",
+    "dais" : {
+        "username":"jmtigateway",
+        "password":"jmtidcsdqs"
+        },
+    "enterpriseid":"testnew_arom_user3",
+    "isRedisCache": true,
+    "unregistered_consent_status": [
+        "deregistered",
+        "expired",
+        "revoked",
+        "rejected"
+    ],
+    "jmti": {
+        "jmti_url": "http://10.162.10.139:60055/",
+        "jmti_api_key": "eyJhbGciOiJIUzI1NiJ9.eyJ2ZXIiOiJ2MSIsImVudElkIjoiMjEyMjIzIiwiaXNzIjoiam10aSIsInN1YiI6InZiYWNjb3VudCIsImlhdCI6MTY1Nzc5OTYwMSwiZXhwIjoxNjY1NTc1NjAxfQ.cZRsbpI9OGmebcD9MJcwuUaHO0KFwfJVdiP8s-kqWRs",
+        "apiExpiryTime": 365,
+        "refreshExpiryTime": 365
+    },
+    "sim_track_durationindays": 90 ,
+    "fr_settings_id":"b2559e1c-cb1a-11ee-8076-000c29a442fb"
+}
